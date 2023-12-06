@@ -1,3 +1,5 @@
+AOS.init(); 	
+
 // JSONParser
 // Имя файла JSON
 const filename = 'js/data.json';

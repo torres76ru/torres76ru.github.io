@@ -398,7 +398,7 @@ body.lock {
 #svg-map polygon:hover,
 #svg-map path:hover,
 #svg-map rect:hover {
-  fill: brown;
+  fill: rgb(92, 120, 197);
   cursor: pointer;
 }
 
