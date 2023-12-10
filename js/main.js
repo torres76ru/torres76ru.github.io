@@ -249,7 +249,12 @@ $(document).ready(function () {
 // <PHONE MASK> =======================================================
 
 $(document).ready(function () {
-  $('#modal-order-phone').inputmask();
+  $('#modal-order-phone').inputmask({
+    mask: '+9 (999) 999-9999', // Example of phone number mask
+    placeholder: '_',
+    showMaskOnFocus: true,
+    showMaskOnHover: false,
+  }); // Пример маски даты (можете заменить на нужную маску)
 });
 
 // </PHONE MASK> =======================================================

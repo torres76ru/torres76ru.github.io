@@ -1687,10 +1687,10 @@
             <p class="order__text">Оставьте заявку, мы перезвоним и предложим выгодный для Вас участок, вышлем нужную информацию!</p>
             <form action="" class="order__form">
               <div class="input-box">
-                <input type="text" placeholder="Ваше имя" />
+                <input type="text" placeholder="Ваше имя" required />
               </div>
               <div class="input-box">
-                <input type="tel" placeholder="Ваш телефон" />
+                <input type="tel" placeholder="Ваш телефон" required />
               </div>
               <button class="order-btn" type="submit">Оставить заявку</button>
             </form>
@@ -1854,7 +1854,7 @@
               <label class="modal-order__input-label" for="modal-order-name">Имя <span>*</span></label>
             </div>
             <div class="modal-order__input input-cpp">
-              <input class="input-modal-order input-cpc" id="modal-order-phone" name="phone" type="tel" data-inputmask='"mask": "+9 (999) 999-99-99"' required />
+              <input class="input-modal-order input-cpc" id="modal-order-phone" name="phone" type="tel" required />
               <label class="modal-order__input-label" for="modal-order-phone">Телефон <span>*</span></label>
             </div>
             <div class="modal-order__input input-cpp focused">
